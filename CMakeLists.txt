@@ -27,6 +27,4 @@ else()
     message(FATAL_ERROR "Operating system type couldn't found!")
 endif ()
 
-add_subdirectory(external)
-add_subdirectory(lib)
 add_subdirectory(src)
